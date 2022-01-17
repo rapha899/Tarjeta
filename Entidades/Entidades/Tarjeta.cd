@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Entidades.Documento" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACIAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAA=</HashCode>
+      <FileName>Entidades\Documento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Solicitud" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAEAAAAAAAAQAAIAAAAAACAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entidades\Solicitud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Tarjeta" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAgAA=</HashCode>
+      <FileName>Entidades\Tarjeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Usuario" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQAACAAAAIEAAAAgAAAAAAAAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>Entidades\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
