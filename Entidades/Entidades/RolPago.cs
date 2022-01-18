@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
-    public class Documento
+    public class RolPago
     {
-        public int Id { get; set; }  
+        public int IdRol { get; set; }  
         public int rolPago { get; set; }
-        public int Factura { get; set;}
+        public DateTime FechaFactura { get; set; }
 
+        //Relaciones 
         public int CurrentSolicitudid { get; set; }
         public Solicitud Solicitud { get; set; }
 

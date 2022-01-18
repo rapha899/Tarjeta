@@ -11,7 +11,7 @@ namespace Entidades.Entidades
         public int idDeuda { get; set; }
         public string TipoDeuda { get; set; }
 
-        public int 
+        
 
     }
 }

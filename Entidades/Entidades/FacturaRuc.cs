@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
-    public class Tarjeta
+    public class FacturaRuc
     {
-        public int TarjetaId { get; set; }
-        public string TarjetaName { get; set; }
+        public int IdFactura { get; set; }
+        public int Factura  { get; set; }
+        public DateTime FechaFactura { get; set; }
 
-        //Relacion 
+        //relacion 
         public int CurrentSolicitudid { get; set; }
         public Solicitud Solicitud { get; set; }
     }
