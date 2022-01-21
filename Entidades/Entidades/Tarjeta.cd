@@ -1,31 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Entidades.Entidades.Documento" Collapsed="true">
-    <Position X="3.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACACIAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAA=</HashCode>
-      <FileName>Entidades\Documento.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Entidades.Entidades.Solicitud" Collapsed="true">
     <Position X="1" Y="1.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>BAACAAAAAAEAAAAAAAAQAAIAAAAAACAAAAAAAAAAAgA=</HashCode>
+      <HashCode>BABCAAAAAAAAAAAAAAAQAAIAAAAAQAAAAAAAAAAAAgA=</HashCode>
       <FileName>Entidades\Solicitud.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Entidades.Entidades.Tarjeta" Collapsed="true">
     <Position X="3.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAgAA=</HashCode>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAggA=</HashCode>
       <FileName>Entidades\Tarjeta.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Entidades.Entidades.Usuario" Collapsed="true">
     <Position X="1" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAACQAACAAAAIEAAAAgAAAAAAAAgAAAAIAAAAAAAA=</HashCode>
+      <HashCode>AAAAACAAACAAAAIEAAAAgAAAEAAAAgAAAAIAAAAAAgA=</HashCode>
       <FileName>Entidades\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Calculos" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAIAAAAAAAAAAAAAAAEAAAAAAgAACAAEAAgg=</HashCode>
+      <FileName>Entidades\Calculos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Deudas" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgA=</HashCode>
+      <FileName>Entidades\Deudas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Factura" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAQAAAAEIAACAAAAAICAAAAAgA=</HashCode>
+      <FileName>Entidades\Factura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.Prerequsitos" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAggAAAQAAAAAAAAAAIAAAAAAAggEAAAAAAA=</HashCode>
+      <FileName>Entidades\Prerequsitos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.RolPago" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAgA=</HashCode>
+      <FileName>Entidades\RolPago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Entidades.RolPagosPublica" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAgA=</HashCode>
+      <FileName>Entidades\RolPagosPublica.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

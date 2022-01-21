@@ -8,7 +8,7 @@ namespace Entidades.Entidades
 {
     public class Tarjeta
     {
-        public int TarjetaId { get; set; }
+        public int id { get; set; }
         public string TarjetaName { get; set; }
 
         //Relacion 

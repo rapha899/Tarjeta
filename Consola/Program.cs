@@ -11,17 +11,17 @@ namespace Consola
             //Creamos una tarjeta
             Tarjeta tarjeta = new Tarjeta()
             { 
-             TarjetaId = 1,
+             id = 1,
              TarjetaName = "Visa Normal" 
             };
             Tarjeta tarjeta1 = new Tarjeta()
             {
-                TarjetaId = 2,
+                id = 2,
                 TarjetaName = "Visa Platinum"
             };
             Tarjeta tarjeta3 = new Tarjeta()
             {
-                TarjetaId = 3,
+                id = 3,
                 TarjetaName = "Visa Signature"
             };
             //Lista de Tarjetas
@@ -30,7 +30,7 @@ namespace Consola
             //Creamos un usuario 
             Usuario usuario = new Usuario()
             {
-                IdUsuario = 1 ,
+                id = 1 ,
                 Nombre = "Raphael",
                 Apellido = "Perez",
                 Cedula = 1750269969 ,
@@ -42,20 +42,19 @@ namespace Consola
             //rol de pagos 
             RolPago rolPago = new RolPago()
             {
-                IdRol = 1 ,
+                id = 1 ,
                 rolPago = 1
                 
             };
             //solicitud
             Solicitud solicitud = new Solicitud()
             {
-                idSolicitud = 1,
+                id = 1,
                 NombreEmpresa = "SA",
                 FechaSolicitud = new DateTime(2022,1,18) ,
                 Ingresos = 12400,
-                Tarjetas = new List<Tarjeta>() {tarjeta , tarjeta1 , tarjeta3 },
+                Tarjetas = new List<Tarjeta>() { tarjeta1 },
                 Usuarios = new List<Usuario>() { usuario}
-
             };
         }
     }

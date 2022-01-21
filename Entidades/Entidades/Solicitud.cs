@@ -8,7 +8,7 @@ namespace Entidades.Entidades
 {
     public class Solicitud
     {
-        public int idSolicitud { get; set; }
+        public int id{ get; set; }
         public int Ingresos { get; set; }
         public string NombreEmpresa { get; set; }
         public string TipoEmpresa { get; set; }
@@ -17,8 +17,9 @@ namespace Entidades.Entidades
         //Relaciones 
         public ICollection <Tarjeta> Tarjetas { get; set;}
         public ICollection<Usuario> Usuarios { get; set; }
-        public ICollection<RolPago> RolPagos { get; set; }
-        public ICollection<FacturaRuc> facturaRucs { get; set; }
+        public ICollection<Deudas> Deudas { get; set; }
+
+        // public ICollection<FacturaRuc> facturaRucs { get; set; }
 
     }
 }

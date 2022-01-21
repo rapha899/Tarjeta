@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
-    public class FacturaRuc
+    public class RolPagosPublica
     {
-        public int IdFactura { get; set; }
-        public int Factura  { get; set; }
-        public DateTime FechaFactura { get; set; }
+        public int id { get; set; }
+        public int rolPagoPublica { get; set; }
+        public DateTime FechaRol { get; set; }
 
-        //relacion 
+        //Relaciones 
         public int CurrentSolicitudid { get; set; }
         public Solicitud Solicitud { get; set; }
+        //pre
+        public ICollection<Prerequsitos> Prerequsitos { get; set; }
     }
 }
