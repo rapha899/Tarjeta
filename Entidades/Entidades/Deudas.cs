@@ -11,6 +11,7 @@ namespace Entidades.Entidades
     {
         public int id { get; set; }
         public string TipoDeuda { get; set; }
+        public float monto { get; set; }
         //Realaciones
         public int CurrentSolicitudid { get; set; }
         public Solicitud Solicitud { get; set; }

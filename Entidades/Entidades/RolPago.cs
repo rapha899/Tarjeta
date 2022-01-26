@@ -10,6 +10,7 @@ namespace Entidades.Entidades
     {
         public int id { get; set; }  
         public int rolPago { get; set; }
+        public float monto { get; set; }
         public DateTime FechaRol { get; set; }
 
         //Relaciones 
