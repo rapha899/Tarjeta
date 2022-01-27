@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModeloDB", "ModeloDB\Modelo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consola", "Consola\Consola.csproj", "{DE1DEE82-BAF8-4F9C-9036-359DFBC047B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargaDatos", "CargaDatos\CargaDatos.csproj", "{7320B94A-85A2-4E06-916D-2422168CC66A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CargaDatos", "CargaDatos\CargaDatos.csproj", "{7320B94A-85A2-4E06-916D-2422168CC66A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{8497E0AA-D6F5-4B96-B605-D3EB45F3C0ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7320B94A-85A2-4E06-916D-2422168CC66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7320B94A-85A2-4E06-916D-2422168CC66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7320B94A-85A2-4E06-916D-2422168CC66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8497E0AA-D6F5-4B96-B605-D3EB45F3C0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8497E0AA-D6F5-4B96-B605-D3EB45F3C0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8497E0AA-D6F5-4B96-B605-D3EB45F3C0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8497E0AA-D6F5-4B96-B605-D3EB45F3C0ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

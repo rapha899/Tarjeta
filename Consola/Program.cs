@@ -16,9 +16,9 @@ namespace Consola
             var listaPeriodos = (List<Usuario>)listas["Usuarios"];
 
             //Grabar
-            TarjetaContex db = new TarjetaContex();
-            db.Usuarios.AddRange(listaPeriodos);
-            db.SaveChanges();
+           // TarjetaContex db = new TarjetaContex();
+           // db.Usuarios.AddRange(listaPeriodos);
+          //  db.SaveChanges();
         }
     }
 }

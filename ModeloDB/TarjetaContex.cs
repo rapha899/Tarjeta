@@ -8,8 +8,15 @@ using Entidades.Entidades;
 namespace ModeloDB
 {
     public class TarjetaContex : DbContext
+
+       
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public TarjetaContex(DbContextOptions<TarjetaContex> options) 
+        :base(options)
+        { 
+        
+        }
+        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
              //string consqlS = "Server=DESKTOP-BFT9R9J;Database=EFCore-TarjetaDB;Trusted_Connection=True";
             //string conPG = "Host = localhost ;" +
@@ -18,7 +25,7 @@ namespace ModeloDB
             //   "Password = 12345678";
             optionsBuilder.UseSqlServer("Server=DESKTOP-BFT9R9J;Database=EFCore-TarjetaDB;Trusted_Connection=True");
         }
-
+        */
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
           
